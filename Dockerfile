@@ -1,7 +1,9 @@
-FROM node:18
+FROM node:20-alpine
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
-RUN yarn add vite
+# How to create app.
+# npx create-next-app@latest
 
+# RUN yarn dev
